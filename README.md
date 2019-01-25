@@ -1,2 +1,2 @@
-# JavaScript_Glossary
+# JavaScript Glossary
 My JavaScript Glossary
