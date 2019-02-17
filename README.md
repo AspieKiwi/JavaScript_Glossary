@@ -7,10 +7,17 @@ Apply( )
 
 ## Apply( )
 ### Syntax
-``` Ruby
-function.apply(thisValue, [arg1, arg2, ...])
+``` JavaScript
+function.apply(thisArg, [argsArray])
 ```
+### Parameters
+thisArg - Optional. THe value of this provided for the call to func. Note that this may not be the actual value seen by the method: if the method is a function in non-strict mode, null and undefined will be replaced with the global object and primitive values will be boxed.
 
+argsArray - 
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+
+### Description
 The first argument in both cases is the value of this that we wish for the call function to have.
 
 Essentially, the only difference between these two methods is the fact that in apply, the second argument is an array object of arguments while in call, all arguments are sent in a common separated format. [Source](https://www.geeksforgeeks.org/arrow-functions-in-javascript/)
